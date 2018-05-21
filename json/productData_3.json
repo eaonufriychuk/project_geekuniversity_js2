@@ -1,0 +1,83 @@
+[
+  {
+    "id": 10,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer43.png",
+    "price": 52.00,
+    "description": "Textured weave sweatshirt. Features a straight fit, round neck and 7/8 length puffed sleeves. JOIN LIFE. Care for fiber: ecologically grown cotton. Ecologically grown cotton is produced using practices that help us to protect biodiversity, such as crop rotation and the use of natural fertilizers.",
+    "color": "Red",
+    "size": "M"
+  },
+  {
+    "id": 11,
+    "title": "Mango people t-shirt",
+    "image": "img/manpct1.png",
+    "price": 55.00,
+    "description": "Contrasting T-shirt with pleats and lace trims. Features a straight fit, a semi boatneck and 7/8 length sleeves with ruffled cuffs.",
+    "color": "Red",
+    "size": "M"
+  },
+  {
+    "id": 12,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer4.png",
+    "price": 60.00,
+    "description": "Sleeveless pleated top featuring a straight fit, a V-neckline and lining.",
+    "color": "Red",
+    "size": "M"
+  },
+  {
+    "id": 13,
+    "title": "Mango people t-shirt",
+    "image": "img/image1.png",
+    "price": 72.00,
+    "description": "Plain T-shirt made from 100% cotton fabric with a stripe detail. Features a casual fit, round neckline, short sleeves and side vents at the hem.",
+    "color": "Red",
+    "size": "M"
+  },
+  {
+    "id": 14,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer9.png",
+    "price": 32.00,
+    "description": "Plain T-shirt made from 100% cotton fabric with a stripe detail. Features a casual fit, round neckline, short sleeves and side vents at the hem.",
+    "color": "Red",
+    "size": "M"
+  },
+  {
+    "id": 15,
+    "title": "Mango people t-shirt",
+    "image": "img/image2.png",
+    "price": 92.00,
+    "description": "T-shirt with contrasting detail. Features a casual fit, round neck, patch pocket at the chest, short sleeves and side vents at the hem. JOIN LIFE. Care for fiber: 100% ecologically grown cotton. Ecologically grown cotton is produced using practices that help us to protect biodiversity, such as crop rotation and the use of natural fertilizers.",
+    "color": "Red",
+    "size": "M"
+  },
+  {
+    "id": 16,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer7.png",
+    "price": 22.00,
+    "description": "Plain T-shirt. Features a casual fit, round neck, two patch pockets at the chest and short sleeves. JOIN LIFE Care for fiber: ecologically grown cotton. Ecologically grown cotton is produced using practices that help us to protect biodiversity, such as crop rotation and the use of natural fertilisers.",
+    "color": "Red",
+    "size": "M"
+  },
+  {
+    "id": 17,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer49.png",
+    "price": 82.00,
+    "description": "Textured weave T-shirt made of 100% cotton piqué fabric. Features a straight fit, round neckline, short sleeves and side vents at the hem.",
+    "color": "Red",
+    "size": "M"
+  },
+  {
+    "id": 18,
+    "title": "Mango people t-shirt",
+    "image": "img/manpct2.png",
+    "price": 62.00,
+    "description": "Striped button neck T-shirt. Features a casual fit, round neck, four button placket, patch pocket at the chest and long sleeves. JOIN LIFE. Care for fiber: ecologically grown cotton. Ecologically grown cotton is produced using practices that help us to protect biodiversity, such as crop rotation and the use of natural fertilisers.",
+    "color": "Red",
+    "size": "M"
+  }
+]

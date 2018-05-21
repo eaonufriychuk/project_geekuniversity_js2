@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer2.png",
+    "price": 52.00,
+    "description": "This garment stands out for its comfort and style. T-shirt made of 100% cotton. Features front button fastening. The back length for size L is 73 cm. The model is 1.88 m tall and is wearing size L.",
+    "color": "Red",
+    "sizes": ["S","M","L","XL"]
+  },
+  {
+    "id": 2,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer3.png",
+    "price": 55.00,
+    "description": "T-shirt made of 100% linen fabric with a shimmery detail on the collar, straight fit, V-neckline and short sleeves.",
+    "color": "Red",
+    "sizes": ["S","M","L","XL"]
+  },
+  {
+    "id": 3,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer4.png",
+    "price": 60.00,
+    "description": "A revamped T-shirt with Latin American inspiration. Made from 100% cotton. Features short sleeves and print. The back length for size L is 73 cm. The model is 1.88 m tall and is wearing size L.",
+    "color": "Red",
+    "sizes": ["S","M","XL"]
+  },
+  {
+    "id": 4,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer5.png",
+    "price": 72.00,
+    "description": "Contrasting T-shirt featuring a straight fit, a round neckline and short set-in sleeves. JOIN LIFE Care for fiber: Sustainable European linen is grown without artificial irrigation on organic farms that use natural fertilizers. This process is environmentally friendly and takes care of the soil.",
+    "color": "Red",
+    "sizes": ["S","L","XL"]
+  },
+  {
+    "id": 5,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer6.png",
+    "price": 32.00,
+    "description": "Lightweight garments perfect for enjoying your leisure time. T-shirt made from 100% cotton. Features short sleeves and dyed thread. The back length for size L is 73 cm. The model is 1.88 m tall and is wearing size L.",
+    "color": "Red",
+    "sizes": ["XL"]
+  },
+  {
+    "id": 6,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer7.png",
+    "price": 92.00,
+    "description": "Contrasting T-shirt with pleats and lace trims. Features a straight fit, a semi boatneck and 7/8 length sleeves with ruffled cuffs.",
+    "color": "Red",
+    "sizes": ["L","XL"]
+  },
+  {
+    "id": 7,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer8.png",
+    "price": 22.00,
+    "description": "Striped T-shirt with shimmer and a slit in the back. Features a straight fit, round neckline and 3/4 sleeves.",
+    "color": "Red",
+    "sizes": ["S","M"]
+  },
+  {
+    "id": 8,
+    "title": "Mango people t-shirt",
+    "image": "img/Layer9.png",
+    "price": 82.00,
+    "description": "Plain T-shirt with a low-cut back, straight fit, round neckline and short sleeves.",
+    "color": "Red",
+    "sizes": ["S","M","L","XL"]
+  },
+  {
+      "id": 9,
+      "title": "Mango people t-shirt",
+      "image": "img/image1.png",
+      "price": 62.00,
+      "description": "This garment stands out for its comfort and style. T-shirt made of 100% cotton. Features front button fastening. The back length for size L is 73 cm. The model is 1.88 m tall and is wearing size L.",
+      "color": "Red",
+    "sizes": ["S","M","L","XL"]
+    }
+]
