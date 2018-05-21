@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../node_modules/jquery-ui/themes/base/all.css">
+    <link rel="stylesheet" href="../node_modules/jquery-ui/themes/flick/jquery-ui.min.css">
+    <link rel="stylesheet" href="../node_modules/jquery-ui/themes/flick/theme.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/jquery-ui/jquery-ui.min.js"></script>
+</head>
+
+<body>
+<div class="content_main">
+    <div class="container_main_content">
+        <header class="header">
+            <div class="container header-flex">
+                <div class="logo"><a class="brand-img" href="index.html" title="Brand"><img src="../img/Group2.jpg"
+                                                                                            alt="Brand"></a>
+                    <h2><a href="index.html">Bran<span>d</span></a></h2>
+                </div>
+                <div class="search">
+                    <details class="search-where">
+                        <summary>Browse</summary>
+                        <div class="list-browse">
+                            <h2>Woman</h2>
+                            <ul class="details-list">
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                                <li><a href="#">Leggings/Pants</a></li>
+                                <li><a href="#">Skirts/Shorts</a></li>
+                                <li><a href="#">Accessories</a></li>
+                            </ul>
+                            <h2 class="last-h2">Men</h2>
+                            <ul class="details-list">
+                                <li><a href="#">Tees/Tanks Top</a></li>
+                                <li><a href="#">Shirts/Polos</a></li>
+                                <li><a href="#">Sweaters</a></li>
+                                <li><a href="#">Sweatshirt/Hoodies</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#"> Jacket/vests</a></li>
+                            </ul>
+                        </div>
+                    </details>
+                    <div class="search-input"><input type="text" name="q" value="" class="search-value"
+                                                     placeholder="Search for Item" autofocus
+                                                     pattern="\s+[A-Za-zА-Яа-яЁё]">
+                        <input type="submit" value=" " class="search-submit">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="basket-mini">
+                    <div class="basket-image"><a href="#"><img src="../img/basket.svg" alt="basket"></a></div>
+                    <div class="basket-product">
+                        <div class="total-price">
+                        </div>
+                    </div>
+                </div>
+
+                <details class="account">
+                    <summary> My Account</summary>
+
+                </details>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <nav class="main">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Man</a>
+                    <div class="mega">
+                        <div class="mega-flex">
+                            <h3>Man</h3>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3>Man</h3>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Women</a>
+                    <div class="mega">
+                        <div class="mega-flex">
+                            <h3>Women</h3>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                                <li><a href="#">Leggins/Pants</a></li>
+                                <li><a href="#">Skirts/Shorts</a></li>
+                                <li><a href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3>Women</h3>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="last-h3">Women</h3>
+                            <ul>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <div class="mega-flex-menu">
+                                <h3>Women</h3>
+                                <ul>
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">Sweaters/Knits</a></li>
+                                    <li><a href="#">Jackets/Coats</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-img">
+                                <div class="super-sale"><h2>Super sale!</h2></div>
+                                <a href="#"><img src="../img/mega.png" alt="mega"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li><a href="#">Kids</a>
+                    <div class="mega">
+                        <div class="mega-flex">
+                            <h3>Kids</h3>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3>Kids</h3>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </li>
+                <li><a href="#">Accoseriese</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="reviews.html">Reviews </a></li>
+            </ul>
+        </nav>
+        <div class="slider">
+            <div class="container slider-title">
+                <article class="slider__text">
+                    <h2>NEW ARRIVALS</h2>
+                </article>
+                <nav class="menu-second">
+                    <ul class="menu_second">
+                        <li><a href="index.html">Home</a>/</li>
+                        <li><a href="#">Man</a>/</li>
+                        <li><a class="active-link-menu" href="single-page.html">New Arrivals</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="product">
+                <div class="product-nav">
+
+                    <details class="product-category">
+
+                        <summary>Category</summary>
+
+                        <ul class="category-list">
+                            <li><a href="">Accessries</a></li>
+                            <li><a href="">Bags</a></li>
+                            <li><a href="">Denim</a></li>
+                            <li><a href="">Hoodies & Sweatshirt</a></li>
+                            <li><a href="">Jackets & Coats</a></li>
+                            <li><a href="">Pants</a></li>
+                            <li><a href="">Polos</a></li>
+                            <li><a href="">Shirts</a></li>
+                            <li><a href="">Shoes</a></li>
+                            <li><a href="">Shorts</a></li>
+                            <li><a href="">Sweaters & Knits</a></li>
+                            <li><a href="">T-Shirts</a></li>
+                        </ul>
+
+
+                    </details>
+                    <details class="product-category">
+
+                        <summary>Brand</summary>
+                        <ul class="category-list">
+                            <li><a href="">Brand1</a></li>
+                            <li><a href="">Brand2</a></li>
+                            <li><a href="">Brand3</a></li>
+                            <li><a href="">Brand4</a></li>
+                            <li><a href="">Brand5</a></li>
+                            <li><a href="">Brand6</a></li>
+                        </ul>
+                    </details>
+                    <details class="product-category">
+
+                        <summary>Designer</summary>
+                        <ul class="category-list">
+                            <li><a href="">Designer1</a></li>
+                            <li><a href="">Designer2</a></li>
+                            <li><a href="">Designer3</a></li>
+                            <li><a href="">Designer4</a></li>
+                            <li><a href="">Designer5</a></li>
+                            <li><a href="">Designer6</a></li>
+                        </ul>
+                    </details>
+                </div>
+                <div class="product-block">
+                    <div class="product-filter">
+                        <div class="product-filter-items">
+                            <div class="product-filter-block">
+                                <div class="product-filter-name">Trending now</div>
+                                <div class="product-filter-trend">
+                                    <span class="product-filter-trend-item">Bohemian</span> <span
+                                        class="pft-sep">|</span> <span class="product-filter-trend-item">Floral</span>
+                                    <span class="pft-sep">|</span> <span class="product-filter-trend-item">Lace</span>
+                                    <br>
+                                    <span class="product-filter-trend-item">Floral</span> <span class="pft-sep">|</span>
+                                    <span class="product-filter-trend-item">Lace</span> <span class="pft-sep">|</span>
+                                    <span class="product-filter-trend-item">Bohemian</span>
+                                </div>
+                            </div>
+                            <div class="product-filter-block">
+                                <div class="product-filter-name">Size</div>
+                                <div class="product-filter-size">
+                                    <div class="product-filter-size-item">
+                                        <input class="checkbox" type="checkbox" name="size[XXS]" value="" id="size-xxs">
+                                        <label for="size-xxs"> <span class="checkbox-filter"></span>
+                                            <span class="label">XXS</span>
+                                        </label>
+                                    </div>
+                                    <div class="product-filter-size-item">
+                                        <input class="checkbox" type="checkbox" name="size[XS]" value="" id="size-xs">
+                                        <label for="size-xs"> <span class="checkbox-filter"></span>
+                                            <span class="label">XS</span>
+                                        </label>
+                                    </div>
+                                    <div class="product-filter-size-item">
+                                        <input class="checkbox" type="checkbox" name="size[S]" value="" id="size-s">
+                                        <label for="size-s"> <span class="checkbox-filter"></span>
+                                            <span class="label">S</span>
+                                        </label>
+                                    </div>
+                                    <div class="product-filter-size-item">
+                                        <input class="checkbox" type="checkbox" name="size[M]" value="" id="size-m">
+                                        <label for="size-m"> <span class="checkbox-filter"></span>
+                                            <span class="label">M</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="product-filter-size">
+                                    <div class="product-filter-size-item">
+                                        <input class="checkbox" type="checkbox" name="size[L]" value="" id="size-l">
+                                        <label for="size-l"> <span class="checkbox-filter"></span>
+                                            <span class="label">L</span>
+                                        </label>
+                                    </div>
+                                    <div class="product-filter-size-item">
+                                        <input class="checkbox" type="checkbox" name="size[XL]" value="" id="size-xl">
+                                        <label for="size-xl"> <span class="checkbox-filter"></span>
+                                            <span class="label">XL</span>
+                                        </label>
+                                    </div>
+                                    <div class="product-filter-size-item">
+                                        <input class="checkbox" type="checkbox" name="size[XXL]" value="" id="size-xxl">
+                                        <label for="size-xxl"> <span class="checkbox-filter"></span>
+                                            <span class="label">XXL</span>
+                                        </label>
+                                    </div>
+                                    <div class="product-filter-size-item"></div>
+                                </div>
+                            </div>
+                            <div class="product-filter-block">
+                                <div id='options'>
+
+                                    <h4>Price</h4>
+                                    <div id="slider_price"></div>
+                                    <!--<form method='post'>-->
+                                    <!--<label for='price'>-->
+                                    <!--От:-->
+                                    <div class="prices">
+                                        <div id="price"></div>
+                                        <!--</label>-->
+
+                                        <!--До:-->
+                                        <div id="price2"></div>
+                                    </div>
+                                    <!--</label>-->
+                                    <!--</form>-->
+
+                                </div>
+                                <!--<div class="product-filter-name">Price</div>-->
+                                <!--<div class="product-filter-price-slider">-->
+                                <!--<div class="price-block">-->
+                                <!--<div class="price-block-left"></div>-->
+                                <!--<div class="price-block-red"></div>-->
+                                <!--<div class="price-block-right"></div>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="product-filter-price-items">-->
+                                <!--<div class="product-filter-price-itemleft">$52</div>-->
+                                <!--<div class="product-filter-price-itemright">$400</div>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                        <div class="product-filter-sort">
+                            <div class="product-sort">
+                                <div class="sort">
+                                    <span>Sort</span>
+                                </div>
+                                <details class="sort-by-name">
+                                    <summary>Name</summary>
+                                    <ul class="name-list">
+                                        <li><a href=""> Name-1</a></li>
+                                        <li><a href=""> Name-2</a></li>
+                                        <li><a href=""> Name-3</a></li>
+                                        <li><a href=""> Name-4</a></li>
+                                        <li><a href=""> Name-5</a></li>
+                                        <li><a href=""> Name-6</a></li>
+                                    </ul>
+                                </details>
+                            </div>
+                            <div class="product-show">
+                                <div class="show">
+                                    <span>Show</span>
+                                </div>
+                                <details class="sort-by-number">
+                                    <summary>Numb</summary>
+                                    <ul class="name-list">
+                                        <li><a href=""> Number01</a></li>
+                                        <li><a href=""> Number02</a></li>
+                                        <li><a href=""> Number03</a></li>
+                                        <li><a href=""> Number04</a></li>
+                                        <li><a href=""> Number05</a></li>
+                                        <li><a href=""> Number06</a></li>
+                                        <li><a href=""> Number07</a></li>
+                                        <li><a href=""> Number08</a></li>
+                                        <li><a href=""> Number09</a></li>
+
+                                    </ul>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fetured-items">
+                    </div>
+                    <div class="catalog-tools">
+                        <ul class="catalog-tools-nav">
+                            <li class="angle-left"><i class="fa fa-angle-left"></i></li>
+                            <li class="page active_one">1</li>
+                            <li class="page">2</li>
+                            <li class="angle-right"><i class="fa fa-angle-right"></i></li>
+                        </ul>
+                        <div class="catalog-tools-all">View All</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="information-block">
+            <div class="container information-block-flex">
+                <div class="block-sale">
+                    <img src="../img/trunk.svg" alt="trunk">
+                    <article class="block-text">
+                        <h2>Free Delivery</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        </p>
+                    </article>
+                </div>
+                <div class="block-sale">
+                    <img src="../img/sale.svg" alt="trunk">
+
+                    <article class="block-text">
+                        <h2>Free Delivery</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        </p>
+                    </article>
+
+                </div>
+                <div class="block-sale">
+                    <img src="../img/crown.svg" alt="crown">
+
+                    <article class="block-text">
+                        <h2>Free Delivery</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer_content">
+        <div class="subscribe">
+            <img class="imgsubscribe" src="../img/Layer41.png" alt="layer41">
+            <div class="container fon">
+                <figure class="comment">
+                    <img src="../img/Layer40.png" width="83" height="83" alt="layer40">
+                    <div class="photo-text">
+                        <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                            dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus."
+                        </p>
+                        <h4>Bin Burham</h4>
+                        <span>Dhaka, Bd</span>
+                        <div class="block-line">
+                            <div class="block-line-1"></div>
+                            <div class="block-line-2"></div>
+                            <div class="block-line-3"></div>
+                        </div>
+                    </div>
+                </figure>
+                <div class="sub">
+                    <h2>SUBSCRIBE</h2>
+                    <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                    <input type="text" name="usermail" placeholder="Enter Your Email" pattern="\S+@[a-z]+.[a-z]+">
+                    <button value="">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="container information">
+            <div class="brandd">
+                <div class="image">
+                    <a class="brand-img" href="index.html" title="Brand"><img src="../img/Group2.jpg"
+                                                                              alt="Brand"></a>
+                    <h2><a href="index.html">Bran<span>d</span></a></h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa. Cum
+                    sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                    justo,
+                    fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                    vitae,
+                    justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                    elementum semper
+                    nisi. Aenean vulputate eleifend tellus.
+                </p>
+            </div>
+            <div class="information-flex">
+                <div class="information-flex-block">
+                    <nav>
+                        <h3> Company</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">How It Works</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="information-flex-block">
+                    <nav>
+                        <h3>Information</h3>
+                        <ul>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">How to Buy</a></li>
+                            <li><a href="#">How to Sell</a></li>
+                            <li><a href="#">Promotion</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="information-flex-block">
+                    <nav>
+                        <h3> Shop category</h3>
+                        <ul>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Child</a></li>
+                            <li><a href="#">Apparel</a></li>
+                            <li><a href="#">Brows All</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container footer">
+                <div class="rights">
+                    <p>&copy;2017 Brand All Rights Reserved.</p>
+                </div>
+                <div class="icons">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="../js/Good.js"></script>
+<script src="../js/Good_js_2.js"></script>
+<script src="../js/Basket.js"></script>
+<script src="../js/open_basket.js"></script>
+<script>
+    $(function () {
+        $("#slider_price").slider({
+            range: true,
+            min: 0,
+            max: 100,
+            values: [25, 60],
+            // start: function (event, ui) {
+            //     console.log(ui);
+            // },
+            stop: function (event, ui) {
+                // var filteredGood = goods.filter(function (good) {
+                //      return good.price >= ui.values[0] && good.price <= ui.values[1];
+                //  });
+
+                filters.priceRange.min = ui.values[0];
+                filters.priceRange.max = ui.values[1];
+                renderGoods(true);
+            },
+            slide: function (event, ui) {
+                //Поле минимального значения
+                $("#price").text('$ ' + ui.values[0]);
+                //Поле максимального значения
+                $("#price2").text('$ ' + ui.values[1]);
+            }
+        });
+        //Записываем значения ползунков в момент загрузки страницы
+        //То есть значения по умолчанию
+        $("#price").text('$ ' + $("#slider_price").slider("values", 0));
+        $("#price2").text('$ ' + $("#slider_price").slider("values", 1));
+
+    });
+
+    $('.checkbox').on('change', function () {
+        console.log(this, this.checked);
+
+        function getSize(str) {
+            return str.slice(5, -1);
+        }
+
+        var size = getSize(this.name);
+        if (this.checked) {
+            filters.sizes.push(size);
+        } else {
+
+            filters.sizes = filters.sizes.filter(function (value) {
+                return value !== size;
+            })
+        }
+
+        renderGoods(true);
+
+    });
+
+
+
+</script>
+</body>
+
+</html>
