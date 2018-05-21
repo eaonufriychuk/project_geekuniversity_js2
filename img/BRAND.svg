@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="93px" height="19px" viewBox="0 0 93 19">
+<style type="text/css"><![CDATA[
+.style0 {
+  font-size: 27px;
+  font-family: "Lato-Light";
+  fill: rgb(34,34,34);
+  text-transform: uppercase;
+}
+.style1 {
+  font-size: 27px;
+  font-family: "Lato-Black";
+  fill: rgb(241,109,127);
+  text-transform: uppercase;
+}
+]]></style>
+<text transform="translate(46.00,19.00)"><tspan x="-43.30 -27.45 -11.58 6.16" fill="rgb(33,33,33)" class="style0">BRAN</tspan><tspan x="24.60" fill="rgb(241,109,127)" class="style1">D</tspan></text></svg>
