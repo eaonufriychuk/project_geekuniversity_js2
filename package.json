@@ -1,0 +1,19 @@
+{
+  "name": "project_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/eaonufriychuk/project_geekuniversity_js2.git)"
+  },
+  "author": "Egor Onufriychuk",
+  "license": "ISC"
+}
